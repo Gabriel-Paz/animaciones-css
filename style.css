@@ -1,0 +1,86 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.animation {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+
+  /* animation: moveColor 12s, moveColor2 12s 12s; */
+  /* animation-name: moveColor; */
+  /* animation-duration: 5s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-delay: 5s; */
+  /* animation-fill-mode: both; */
+  /* forwards    ||  backwards  ||  both */
+
+  /* forwards
+  aplica los valores del ultimo keyframes
+  */
+
+  /* backwards
+  aplicar los valores del primer keyframes
+  nesecesita un animation-delay
+  */
+
+  /* both
+
+  both ===  forwards  &&  backwards 
+  */
+
+  /* animation-direction: alternate-reverse; */
+  /* normal 0 al 100*/
+  /* reverse 100 al 0  */
+  /* alternate 0 al 100 y 100 al 0  */
+  /* alternate-reverse 100 al 0 y 0 al 100 */
+
+  /* animation-timing-function: cubic-bezier(.43,.92,.64,-0.07); */
+}
+
+
+/* .div--animation{ */
+/* animation-name: moveColor; */
+/* animation-duration: 5s; */
+/* animation-iteration-count: infinite; */
+/* } */
+
+/* body:hover .animation{  */
+/* animation-play-state: paused; */
+/* } */
+/* 
+@keyframes moveColor {
+  0% {
+    background-color: red;
+    transform: translateX(0%);
+  }
+
+  16%{
+    background-color: gray;
+    transform: translateX(250%);
+  }
+  
+  32%{
+    background-color: red;
+    transform: translateX(0%);
+  }
+  
+  48%{
+    background-color: blue;
+    transform: translateX(0%);
+  }
+
+  64%{
+    background-color: green;
+    transform: translateX(0%);
+  }
+  
+  100% {
+    background-color: green;
+    transform: translateX(250%);
+  }
+} */
